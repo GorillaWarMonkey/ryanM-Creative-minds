@@ -1,0 +1,22 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/script.rpy", line 142, in script
+    narrartor "after multiple months going through this cycle your friend eventually distances themself from you"
+Exception: Sayer 'narrartor' is not defined.
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/script.rpy", line 142, in script
+    narrartor "after multiple months going through this cycle your friend eventually distances themself from you"
+  File "C:\Users\cerea\OneDrive\Documents\renpy-8.1.1-sdk\renpy\ast.py", line 890, in execute
+    who = eval_who(self.who, self.who_fast)
+  File "C:\Users\cerea\OneDrive\Documents\renpy-8.1.1-sdk\renpy\ast.py", line 783, in eval_who
+    raise Exception("Sayer '%s' is not defined." % who)
+Exception: Sayer 'narrartor' is not defined.
+
+Windows-10-10.0.22621 AMD64
+Ren'Py 8.1.1.23060707
+RyanM 1.0
+Mon Aug  7 01:38:16 2023
